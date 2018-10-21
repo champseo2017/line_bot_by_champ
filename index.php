@@ -7,8 +7,9 @@ $g = [];
 foreach($data as $da){
 
     $g = $da->question;
-    print_r($g);
+   
 
     
 
 }
+print_r($g);
