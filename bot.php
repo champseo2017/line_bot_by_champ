@@ -74,8 +74,7 @@ $result = curl_exec($channel);
 curl_close ($channel);
 
 
- //รับข้อความจากผู้ใช้
- $_msg = $arrayJson['events'][0]['message']['text'];
+
  //รับ id ของผู้ใช้
  $id = $arrayJson['events'][0]['source']['userId'];
  #ตัวอย่าง Message Type "Text + Sticker"
