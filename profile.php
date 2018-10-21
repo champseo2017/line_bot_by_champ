@@ -1,7 +1,7 @@
 <?php
 
 
-$access_token = '3ALKAbKFoGuJyJnoDdn0HeyfbxLFtEXBKiC0lFeoNl/XbL4WhoCZzefp2n7UDuXaCWfErIDro07BnZNggJmXJChXTIlMPo8LRJ+n1LEgbRUaKehDkiCr5p5CakHrPX+gauOGX/R5bB2e5yi7xjnHDAdB04t89/1O/w1cDnyilFU=';
+$access_token = 'NDK2kE63Gu1yEeDsmhSewpAp3abN1dMfZN/k/jbaUZthaL4xqIok9I/mW82KHs5AXrGsx5lHgX9zFBLQ4yxG37xcQjg0FZH42uIMzUkjw5jZAdbgQzDL8apoXmA1q3wI1Z5JMLHQluKPcJ5iqXaOiAdB04t89/1O/w1cDnyilFU=';
 
 $userId = 'Uffa138efe037e6e889d0b0f4a871c005';
 
@@ -16,5 +16,5 @@ curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 $result = curl_exec($ch);
 curl_close($ch);
 
-echo $result;
+echo "gg";
 
