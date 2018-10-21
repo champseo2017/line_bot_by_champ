@@ -4,4 +4,3 @@ $url = 'https://api.mlab.com/api/1/databases/line_bot/collections/line_bot?apiKe
 $json = file_get_contents('https://api.mlab.com/api/1/databases/line_bot/collections/line_bot?apiKey='.$api_key);
 $data = json_decode($json,true);
 print_r($data);
-echo "Hello LINE BOT";
