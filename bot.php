@@ -28,7 +28,7 @@ if($_msg == "สวัสดี"){
    $arrayPostData['messages'][1]['stickerId'] = "34";
    pushMsg($arrHeader,$arrayPostData);
 }
-function pushMsg01($arrHeader,$arrayPostData){
+function pushMsgs($arrHeader,$arrayPostData){
    $strUrl2 = "https://api.line.me/v2/bot/message/push";
    $ch = curl_init();
    curl_setopt($ch, CURLOPT_URL,$strUrl2);
