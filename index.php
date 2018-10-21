@@ -4,3 +4,7 @@ $url = 'https://api.mlab.com/api/1/databases/line_bot/collections/line_bot?apiKe
 $json = file_get_contents('https://api.mlab.com/api/1/databases/line_bot/collections/line_bot?apiKey='.$api_key);
 
 print_r($json);
+?>
+<script>
+console.log("dwd");
+</script>
