@@ -6,7 +6,6 @@ $arrJson = json_decode($content, true);
 $strUrl = "https://api.line.me/v2/bot/message/reply";
 
 $arrHeader = array();
-$arrayHeader = array();
 $arrHeader[] = "Content-Type: application/json";
 $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
 $_msg = $arrJson['events'][0]['message']['text'];
@@ -27,7 +26,7 @@ if($_msg == "สวัสดี"){
    $arrayPostData['messages'][1]['type'] = "sticker";
    $arrayPostData['messages'][1]['packageId'] = "2";
    $arrayPostData['messages'][1]['stickerId'] = "34";
-   pushMsg($arrayHeader,$arrayPostData);
+   pushMsg($arrHeader,$arrayPostData);
 }
 function pushMsg($arrayHeader,$arrayPostData){
    $strUrl2 = "https://api.line.me/v2/bot/message/push";
