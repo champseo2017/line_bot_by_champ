@@ -1,2 +1,2 @@
 <?php
-echo "Hello LINE BOT GGWP";
+echo "Hello LINE BOT";
