@@ -17,7 +17,7 @@ $data = json_decode($json);
 $isData=sizeof($data);
 
 //รับ id ของผู้ใช้
-$id = $arrayJson['events'][0]['source']['userId'];
+$id = $arrJson['events'][0]['source']['userId'];
 #ตัวอย่าง Message Type "Text + Sticker"
 if($_msg == "สวัสดี"){
    $arrayPostData['to'] = $id;
